@@ -1,0 +1,5 @@
+C:\Users\luisdeolpy\Documents\Visual Studio 2015\Projects\Exam 70-483\Streams\Streams\bin\Debug\Streams.exe.config
+C:\Users\luisdeolpy\Documents\Visual Studio 2015\Projects\Exam 70-483\Streams\Streams\bin\Debug\Streams.exe
+C:\Users\luisdeolpy\Documents\Visual Studio 2015\Projects\Exam 70-483\Streams\Streams\bin\Debug\Streams.pdb
+C:\Users\luisdeolpy\Documents\Visual Studio 2015\Projects\Exam 70-483\Streams\Streams\obj\Debug\Streams.exe
+C:\Users\luisdeolpy\Documents\Visual Studio 2015\Projects\Exam 70-483\Streams\Streams\obj\Debug\Streams.pdb

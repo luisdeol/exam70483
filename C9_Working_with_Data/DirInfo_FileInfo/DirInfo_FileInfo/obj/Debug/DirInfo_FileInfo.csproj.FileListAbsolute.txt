@@ -1,0 +1,6 @@
+C:\Users\luisdeolpy\Documents\Visual Studio 2015\Projects\Exam 70-483\DirInfo_FileInfo\DirInfo_FileInfo\bin\Debug\DirInfo_FileInfo.exe.config
+C:\Users\luisdeolpy\Documents\Visual Studio 2015\Projects\Exam 70-483\DirInfo_FileInfo\DirInfo_FileInfo\bin\Debug\DirInfo_FileInfo.exe
+C:\Users\luisdeolpy\Documents\Visual Studio 2015\Projects\Exam 70-483\DirInfo_FileInfo\DirInfo_FileInfo\bin\Debug\DirInfo_FileInfo.pdb
+C:\Users\luisdeolpy\Documents\Visual Studio 2015\Projects\Exam 70-483\DirInfo_FileInfo\DirInfo_FileInfo\obj\Debug\DirInfo_FileInfo.csprojResolveAssemblyReference.cache
+C:\Users\luisdeolpy\Documents\Visual Studio 2015\Projects\Exam 70-483\DirInfo_FileInfo\DirInfo_FileInfo\obj\Debug\DirInfo_FileInfo.exe
+C:\Users\luisdeolpy\Documents\Visual Studio 2015\Projects\Exam 70-483\DirInfo_FileInfo\DirInfo_FileInfo\obj\Debug\DirInfo_FileInfo.pdb
