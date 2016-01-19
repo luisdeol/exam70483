@@ -1,0 +1,6 @@
+C:\Users\luisdeolpy\Documents\GitHub\exam70483\C9_Working_with_Data\StringReader\StringReader\bin\Debug\StringReader.exe.config
+C:\Users\luisdeolpy\Documents\GitHub\exam70483\C9_Working_with_Data\StringReader\StringReader\bin\Debug\StringReader.exe
+C:\Users\luisdeolpy\Documents\GitHub\exam70483\C9_Working_with_Data\StringReader\StringReader\bin\Debug\StringReader.pdb
+C:\Users\luisdeolpy\Documents\GitHub\exam70483\C9_Working_with_Data\StringReader\StringReader\obj\Debug\StringReader.csprojResolveAssemblyReference.cache
+C:\Users\luisdeolpy\Documents\GitHub\exam70483\C9_Working_with_Data\StringReader\StringReader\obj\Debug\StringReader.exe
+C:\Users\luisdeolpy\Documents\GitHub\exam70483\C9_Working_with_Data\StringReader\StringReader\obj\Debug\StringReader.pdb
