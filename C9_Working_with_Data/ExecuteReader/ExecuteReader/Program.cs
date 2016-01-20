@@ -19,6 +19,9 @@ namespace ExecuteReader
                 cmd.Connection = cn;
                 cmd.CommandType = System.Data.CommandType.Text;
                 cmd.CommandText = "SELECT * FROM dbo.City";
+                /*Use the ExecuteReader method to retrieve results from the database such as when you use a
+                Select statement. The ExecuteReader returns a DBDataReader object which is 
+                a forward-only resultset that remains connected to the database the entire time the reader is open.*/
                 SqlDataReader dr = cmd.ExecuteReader();
                 if (dr.HasRows)
                 {

@@ -19,9 +19,6 @@ namespace Binary_Serialization
             person.LastName = "Oliveira";
 
             IFormatter formatter = new BinaryFormatter();
-            //Getting the execution path
-            string path = System.Reflection.Assembly.GetExecutingAssembly().Location;
-            var directory = System.IO.Path.GetDirectoryName(path);
             //Creating the File and Serializing
             Stream sr = new FileStream("Person.bin", FileMode.Create, FileAccess.Write, FileShare.None);
             formatter.Serialize(sr, person);
