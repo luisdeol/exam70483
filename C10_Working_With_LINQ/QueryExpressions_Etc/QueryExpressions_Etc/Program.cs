@@ -24,6 +24,24 @@ namespace QueryExpressions_Etc
                                where i % 2 == 0
                                orderby i descending
                                select i;
+
+            //You can also order by more than one property by separating your conditions with a comma.
+            List<Hometown> hometowns = new List<Hometown>()
+             {
+                new Hometown() { City = "Philadelphia", State = "PA" },
+                new Hometown() { City = "Ewing", State = "NJ" },
+                new Hometown() { City = "Havertown", State = "PA" },
+                new Hometown() { City = "Fort Washington", State = "PA" },
+                new Hometown() { City = "Trenton", State = "NJ" }
+            };
+            var orderedHometowns = from h in hometowns
+                                   orderby h.State ascending, h.City descending
+                                   select h;
+        }
+        class Hometown
+        {
+            public string City { get; set; }
+            public string State { get; set; }
         }
     }
 }
