@@ -30,7 +30,7 @@ namespace LINQ_Queries_Ordering
 
             foreach (var state in orderedStates)
             {
-                Console.WriteLine("Name: {0}, Population: {1}", state.Population, state.StateName);
+                Console.WriteLine(String.Format("Name: {0}, Population: {1}", state.Population, state.StateName));
             }
         }
     }
