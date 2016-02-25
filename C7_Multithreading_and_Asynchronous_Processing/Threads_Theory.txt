@@ -1,0 +1,29 @@
+	A thread is the smallest unit of execution that can be independently
+scheduled by the OS.
+The Windows scheduler works as follows:
+1. Every thread gets a priority assigned when it is created. A created thread is not automatically
+started; you have to do that.
+2. When a thread is started, it will be added on a queue with all the threads that can be run.
+3. The scheduler takes the thread with the highest priority on the queue, and it starts to run it.
+4. If several threads have the same priority, the scheduler schedules them in circular order
+(round robin).
+5. When the time allotted is up, the scheduler suspends the thread, adding it at the end of the
+queue. After that, it picks up a new thread to run it.
+6. If there is no other thread with higher priority than the one just interrupted, that thread
+executes again.
+7. When a thread is blocked because it has to wait for an I/O operation, or for some other
+reasons such as locking (discussed later in this chapter in the “Synchronizing Resources”
+section), the thread will be removed from the queue and another thread will be scheduled
+to run.
+8. When the reason for blocking ends, the thread is added back in the queue to get a chance
+to run.
+9. When a thread finishes the work, the scheduler can pick another thread to run it.
+
+	Following are some of the disadvantages of multithreaded applications:
+➤ All threads are resource-intensive. They need a lot of memory (1 megabyte is standard), and
+every time the scheduler has to switch between threads, the processor will be busy saving the
+context of the suspending thread and restoring the context of the running thread.
+➤ If your application creates too many threads, the context switching consumes a considerable
+amount of time.
+➤ Because the thread needs so much memory, it usually takes a considerable amount of time for
+the system to create one tread and takes some time to destroy it as well.
