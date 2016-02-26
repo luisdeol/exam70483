@@ -1,0 +1,6 @@
+C:\Users\luisdeolpy\Documents\GitHub\exam70483\Creating_Tasks\Creating_Tasks\bin\Debug\Creating_Tasks.exe.config
+C:\Users\luisdeolpy\Documents\GitHub\exam70483\Creating_Tasks\Creating_Tasks\bin\Debug\Creating_Tasks.exe
+C:\Users\luisdeolpy\Documents\GitHub\exam70483\Creating_Tasks\Creating_Tasks\bin\Debug\Creating_Tasks.pdb
+C:\Users\luisdeolpy\Documents\GitHub\exam70483\Creating_Tasks\Creating_Tasks\obj\Debug\Creating_Tasks.csprojResolveAssemblyReference.cache
+C:\Users\luisdeolpy\Documents\GitHub\exam70483\Creating_Tasks\Creating_Tasks\obj\Debug\Creating_Tasks.exe
+C:\Users\luisdeolpy\Documents\GitHub\exam70483\Creating_Tasks\Creating_Tasks\obj\Debug\Creating_Tasks.pdb
