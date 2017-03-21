@@ -18,6 +18,11 @@ namespace getFields
             {
                 Console.WriteLine($"Field: {field.Name} - Value: {field.GetValue(calculator)}");
             }
+
+            calc.GetField("_conversionFactor", BindingFlags.NonPublic|BindingFlags.Instance).SetValue(calculator, 0.01);
+
+            var newPrice = calculator.CalculateFinalPrice(30);
+            Console.WriteLine($"New Final Price, after changing _conversionFactor using Reflection: {newPrice.ToString(CultureInfo.InvariantCulture)}");
         }
 
         public class CostCalculator
